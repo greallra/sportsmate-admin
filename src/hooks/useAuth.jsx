@@ -3,7 +3,7 @@
 //https://stackoverflow.com/questions/73075596/how-to-use-firebase-authentication-with-redux-toolkit-using-onauthstatechanged
 import { createContext, useContext, useMemo, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useLocalStorage } from '@/hooks/useLocalStorage';
+import { useLocalStorage } from './useLocalStorage.jsx';
 // import useLanguages from '@/hooks/useLanguages';
 // import { formatUserData } from '@/common/utils'
 import { appendAuthDataToUser, esGetDoc, formatUserData } from 'exchanges-shared';
