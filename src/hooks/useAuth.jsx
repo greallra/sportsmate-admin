@@ -7,7 +7,7 @@ import { useLocalStorage } from '@/hooks/useLocalStorage';
 // import useLanguages from '@/hooks/useLanguages';
 // import { formatUserData } from '@/common/utils'
 import { appendAuthDataToUser, esGetDoc, formatUserData } from 'exchanges-shared';
-import { db as FIREBASE_DB } from '../../firebaseConfig';
+import { db as FIREBASE_DB } from '@/firebaseConfig';
 
 const AuthContext = createContext();
 
